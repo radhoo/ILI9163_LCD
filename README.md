@@ -3,6 +3,8 @@ A code library for ILI9163 1.44" LCD, designed for AVR Microcontrollers
 
  * @brief ILI9163 128x128 LCD Driver (Header file) , 1.44" Serial 128X128 SPI Color TFT LCD Module 16bit Display (RGB16)
  *
+ * http://www.pocketmagic.net/ili9163-lcd-library/
+ *
  * This code has been ported from the ili9163lcd library for mbed made by Jun Morita.
  *
  * This code has been ported from the ili9163lcd library for avr made
@@ -10,19 +12,22 @@ A code library for ILI9163 1.44" LCD, designed for AVR Microcontrollers
  *
  * This code has been optimised and ported to C++ as a class
  * by Radu Motisan, radu.motisan@gmail.com , www.pocketmagic.net
+ * Two variants are provided, one using SPI communication (Faster) and one using GPIO for SCK and SDA pins (Slower)
  *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
+ * License lGPL v3	
+ *
+ * This project is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published
+ * by the Free Software Foundation; either version 3 of the License,
+ * or (at your option) any later version.
  *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
+ * GNU Lesser General Public License for more details.
  *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  *
  * @author Jun Morita (iccraft)
  * @author Simon Inns <simon.inns@gmail.com>
